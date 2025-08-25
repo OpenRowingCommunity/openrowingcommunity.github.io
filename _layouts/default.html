@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="We're building open, community-first software for the sport of rowing. 🚣‍♀️">
+	<meta name="author" content="Open Rowing Community">
+	<meta name="robots" content="index, follow">
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<meta property="og:title" content="Open Rowing Community">
+	<meta property="og:description" content="We're building open, community-first software for the sport of rowing. 🚣‍♀️">
+	<meta property="og:image" content="https://openrowing.com/logo.png">
+	<meta property="og:url" content="https://openrowing.com">
+	<meta property="og:type" content="website">
+
+	<title>Open Rowing Community</title>
+	<style>
+		body {
+			font-family: sans-serif;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			min-height: 100vh;
+			margin: 0;
+			padding: 2rem;
+			background-color: #f9f9f9;
+		}
+
+		img.logo {
+			max-width: 150px;
+			margin-bottom: 1rem;
+		}
+
+		h1 {
+			font-size: 2.5em;
+		}
+
+		p {
+			font-size: 1.2em;
+			max-width: 600px;
+			text-align: center;
+		}
+
+		a {
+			text-decoration: none;
+			color: #007acc;
+		}
+	</style>
+	<!-- Matomo -->
+	<script>
+		var _paq = window._paq = window._paq || [];
+		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function () {
+			var u = "//analytics.adriancedwards.com/";
+			_paq.push(['setTrackerUrl', u + 'matomo.php']);
+			_paq.push(['setSiteId', '20']);
+			var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+			g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+		})();
+	</script>
+	<!-- End Matomo Code -->
+</head>
+
+<body>
+	{{ content }}
+</body>
+
+</html>
