@@ -1,5 +1,11 @@
 
 url: "https://openrowing.com"
+title: Open Rowing Community
+tagline: Open software for Rowing
+# author: Open Rowing Community
+description: We're building open, community-first software for the sport of rowing. 🚣‍♀️
+logo: https://openrowing.com/assets/logo.png
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
