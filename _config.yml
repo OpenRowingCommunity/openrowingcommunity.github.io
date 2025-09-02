@@ -6,6 +6,12 @@ tagline: Open software for Rowing
 description: We're building open, community-first software for the sport of rowing. 🚣‍♀️
 logo: https://openrowing.com/assets/logo.png
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/logo.png
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
